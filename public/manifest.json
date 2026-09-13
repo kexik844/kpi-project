@@ -1,0 +1,17 @@
+{
+  "name": "Личный KPI: Трекер Задач",
+  "short_name": "Личный KPI",
+  "description": "Учёт дел с личностным KPI: план, планка радости, факт и личные призы",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbfbfb",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

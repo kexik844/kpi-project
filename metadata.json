@@ -1,0 +1,6 @@
+{
+  "name": "Личный KPI: Трекер Задач",
+  "description": "Учёт дел с личностным KPI: планируемый результат, планка радости, факт, статистика прогресса, система личных призов и поощрений, экспорт в PDF.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

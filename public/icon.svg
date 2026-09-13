@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff0f3"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#bbded6"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="100%" stop-color="#61c0bf"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  
+  <!-- Base background with rounded corners -->
+  <rect width="512" height="512" rx="115" fill="url(#bg)"/>
+  
+  <!-- Target circles -->
+  <circle cx="256" cy="256" r="170" fill="none" stroke="#61c0bf" stroke-width="28" stroke-dasharray="8 8" opacity="0.4"/>
+  <circle cx="256" cy="256" r="125" fill="#ffffff" stroke="#61c0bf" stroke-width="20" filter="url(#shadow)"/>
+  <circle cx="256" cy="256" r="75" fill="url(#accent)"/>
+  <circle cx="256" cy="256" r="30" fill="#ffffff"/>
+  
+  <!-- Sparkle top-right -->
+  <path d="M 370 110 L 378 135 L 403 143 L 378 151 L 370 176 L 362 151 L 337 143 L 362 135 Z" fill="#fb7185"/>
+</svg>
